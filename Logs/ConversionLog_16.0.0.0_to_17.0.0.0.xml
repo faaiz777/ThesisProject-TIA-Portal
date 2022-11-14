@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='ConversionLogFile.xsl'?>
+<LogFile projectName="DemoProject_V17" typeText="Type" messageText="Message" timeText="Time">
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/11/2022 4:29:15 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Upgrade started" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="11/11/2022 4:29:16 PM" Debug="false">
+    <Text>Reorganization succeed!</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/11/2022 4:29:16 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair lost+found objects" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="11/11/2022 4:29:16 PM" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/11/2022 4:29:16 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair missing bidirectional links" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="11/11/2022 4:29:17 PM" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/11/2022 4:29:17 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair clear segment flags" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="11/11/2022 4:29:17 PM" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/11/2022 4:29:30 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="A user with the required engineering right &quot;ERROR: ResourceID 'ProjectManager.UpgradeProject' not found in resource of type Siemens.Automation.Umac.Resources.AccessControl.Administration.EngineeringRightsResources&quot; has logged on." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/11/2022 4:29:30 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Starting removal of system role assignments compatibility from system device function rights" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/11/2022 4:29:30 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Finished removal of system role assignments compatibility from system device function rights" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/11/2022 4:29:30 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Removing outdated system roles." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/11/2022 4:29:30 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="The removal of outdated system roles has finished." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/11/2022 4:29:30 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Engineering rights that are no longer supported are deleted." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/11/2022 4:29:30 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Engineering rights that are no longer supported were deleted." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/11/2022 4:29:30 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="System-defined runtime rights are deleted." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/11/2022 4:29:30 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Deletion of system runtime rights was completed." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/11/2022 4:29:30 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Starting change link between DFR and DFRSet" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/11/2022 4:29:30 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Finished change link between DFR and DFRSet" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="11/11/2022 4:29:37 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Project element: '\PLC_1\ProgramBlocksFolder\Main' - Checksum inconsistency for 'General; Event'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="11/11/2022 4:29:39 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Project element: '\PLC_1\ProgramBlocksFolder\Pythagoras' - Checksum inconsistency for 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="11/11/2022 4:29:39 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Project element: '\PLC_1\ProgramBlocksFolder\testEnvironment\Test' - Checksum inconsistency for 'General; Event'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="11/11/2022 4:29:39 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Project element: '\PLC_1\ProgramBlocksFolder\testEnvironment\InstPythagoras' - Checksum inconsistency for 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/11/2022 4:29:41 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="The cross-reference information is being converted." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/11/2022 4:29:42 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="The cross-reference information was created successfully." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/11/2022 4:29:42 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Conversion of the cross-reference information is finished." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="11/11/2022 4:29:42 PM" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Lang.S7PSW.V16.0.0.0.NonMandatory' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="11/11/2022 4:29:42 PM" Debug="false">
+    <Text>Product version 'Siemens.Simatic.STEP7.Professional:16.00.00.00' was deleted</Text>
+  </Details>
+  <MessageCell ServiceId="Automation-ObjectFrame-Feedbacks" MessageId="ConversionInfoTabProjectSucceeded" MessageClass="Success" Timestamp="11/11/2022 4:29:43 PM">
+    <Number ServiceNumber="80" MessageNumber="34" />
+    <Text FeedbackText="Project 'C:\Users\User\Desktop\Thesis\1-  Start with this application test\DemoProject\System\PEData.plf' was successfully upgraded and saved as project 'C:\Users\User\Desktop\Thesis\1-  Start with this application test\DemoProject_V17\System\PEData.plf'." />
+    <Help HelpId="-1" HelpFile="" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="11/11/2022 4:29:43 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="FinalCheckRemainingErrors" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="11/11/2022 4:29:43 PM" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+</LogFile>
