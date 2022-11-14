@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" disabled="0" errors="0" failures="2" name="DemoProject_V17" tests="2" time="37">
+  <testsuite name="SiemensProgrammingStyleGuideRules" tests="69" disabled="0" errors="0" failures="25" hostname="localhost" id="1" package="StyleGuide" skipped="0" time="7" timestamp="2022-11-14T23:42:58.704787Z">
+    <testcase name="NF002: Comment for Code block" classname="PLC_1/Main" status="Failure">
+      <failure type="Failure" message="Comment does not exist" />
+    </testcase>
+    <testcase name="NF002: Comment for Code block" classname="PLC_1/Pythagoras" status="Failure">
+      <failure type="Failure" message="Comment does not exist" />
+    </testcase>
+    <testcase name="NF002: Comment for Code block" classname="PLC_1/Test" status="Failure">
+      <failure type="Failure" message="Comment does not exist" />
+    </testcase>
+    <testcase name="NF002: Comment for Instance DB" classname="PLC_1/Pythagoras_DB" status="Failure">
+      <failure type="Failure" message="Comment does not exist" />
+    </testcase>
+    <testcase name="NF002: Comment for Instance DB" classname="PLC_1/InstPythagoras" status="Failure">
+      <failure type="Failure" message="Comment does not exist" />
+    </testcase>
+    <testcase name="NF002: Title for Code block" classname="PLC_1/Pythagoras" status="Failure">
+      <failure type="Failure" message="Title does not exist" />
+    </testcase>
+    <testcase name="NF002: Title for Code block" classname="PLC_1/Main" status="Passed" />
+    <testcase name="NF002: Title for Code block" classname="PLC_1/Test" status="Passed" />
+    <testcase name="NF002: Title for Instance DB" classname="PLC_1/Pythagoras_DB" status="Failure">
+      <failure type="Failure" message="Title does not exist" />
+    </testcase>
+    <testcase name="NF002: Title for Instance DB" classname="PLC_1/InstPythagoras" status="Failure">
+      <failure type="Failure" message="Title does not exist" />
+    </testcase>
+    <testcase name="NF002: Author for Code block" classname="PLC_1/Main" status="Failure">
+      <failure type="Failure" message="Author does not exist" />
+    </testcase>
+    <testcase name="NF002: Author for Code block" classname="PLC_1/Pythagoras" status="Failure">
+      <failure type="Failure" message="Author does not exist" />
+    </testcase>
+    <testcase name="NF002: Author for Code block" classname="PLC_1/Test" status="Failure">
+      <failure type="Failure" message="Author does not exist" />
+    </testcase>
+    <testcase name="NF005: PascalCasing for Instance DB" classname="PLC_1/Pythagoras_DB" status="Failure">
+      <failure type="Failure" message="The InstanceDataBlock  should be pascal-cased" />
+    </testcase>
+    <testcase name="NF005: PascalCasing for Instance DB" classname="PLC_1/InstPythagoras" status="Passed" />
+    <testcase name="NF005: PascalCasing for Code block" classname="PLC_1/Main" status="Passed" />
+    <testcase name="NF005: PascalCasing for Code block" classname="PLC_1/Pythagoras" status="Passed" />
+    <testcase name="NF005: PascalCasing for Code block" classname="PLC_1/Test" status="Passed" />
+    <testcase name="NF005: PascalCasing for PLC tag table" classname="PLC_1/Default tag table" status="Failure">
+      <failure type="Failure" message="The PLCTagTable  should be pascal-cased" />
+    </testcase>
+    <testcase name="NF006: camelCasing for In, Out, InOut" classname="PLC_1/Pythagoras/a" status="Passed" />
+    <testcase name="NF006: camelCasing for In, Out, InOut" classname="PLC_1/Pythagoras/b" status="Passed" />
+    <testcase name="NF006: camelCasing for In, Out, InOut" classname="PLC_1/Pythagoras/valid" status="Passed" />
+    <testcase name="NF006: camelCasing for In, Out, InOut" classname="PLC_1/Pythagoras/c" status="Passed" />
+    <testcase name="NF006: camelCasing for PLC tag" classname="PLC_1/Default tag table/Side A" status="Failure">
+      <failure type="Failure" message="The PLCTagTable.Tags should be camel-cased" />
+    </testcase>
+    <testcase name="NF006: camelCasing for PLC tag" classname="PLC_1/Default tag table/Side B" status="Failure">
+      <failure type="Failure" message="The PLCTagTable.Tags should be camel-cased" />
+    </testcase>
+    <testcase name="NF006: camelCasing for PLC tag" classname="PLC_1/Default tag table/Hypotneus(1)" status="Failure">
+      <failure type="Failure" message="The PLCTagTable.Tags should be camel-cased" />
+    </testcase>
+    <testcase name="NF007: No prefix for Input" classname="PLC_1/Pythagoras/a" status="Passed" />
+    <testcase name="NF007: No prefix for Input" classname="PLC_1/Pythagoras/b" status="Passed" />
+    <testcase name="NF007: No prefix for Output" classname="PLC_1/Pythagoras/valid" status="Passed" />
+    <testcase name="NF007: No prefix for Output" classname="PLC_1/Pythagoras/c" status="Passed" />
+    <testcase name="NF007: Prefix for Instance DB" classname="PLC_1/Pythagoras_DB" status="Failure">
+      <failure type="Failure" message="The InstanceDataBlock should start with Inst" />
+    </testcase>
+    <testcase name="NF007: Prefix for Instance DB" classname="PLC_1/InstPythagoras" status="Passed" />
+    <testcase name="NF010: Maximum length identifier Code block" classname="PLC_1/Main" status="Passed" />
+    <testcase name="NF010: Maximum length identifier Code block" classname="PLC_1/Pythagoras" status="Passed" />
+    <testcase name="NF010: Maximum length identifier Code block" classname="PLC_1/Test" status="Passed" />
+    <testcase name="NF010: Maximum length identifier In, Out, InOut" classname="PLC_1/Pythagoras/a" status="Passed" />
+    <testcase name="NF010: Maximum length identifier In, Out, InOut" classname="PLC_1/Pythagoras/b" status="Passed" />
+    <testcase name="NF010: Maximum length identifier In, Out, InOut" classname="PLC_1/Pythagoras/valid" status="Passed" />
+    <testcase name="NF010: Maximum length identifier In, Out, InOut" classname="PLC_1/Pythagoras/c" status="Passed" />
+    <testcase name="NF010: Maximum length identifier Instance DB" classname="PLC_1/Pythagoras_DB" status="Passed" />
+    <testcase name="NF010: Maximum length identifier Instance DB" classname="PLC_1/InstPythagoras" status="Passed" />
+    <testcase name="NF010: Maximum length identifier PLC tag" classname="PLC_1/Default tag table/Side A" status="Passed" />
+    <testcase name="NF010: Maximum length identifier PLC tag" classname="PLC_1/Default tag table/Side B" status="Passed" />
+    <testcase name="NF010: Maximum length identifier PLC tag" classname="PLC_1/Default tag table/Hypotneus(1)" status="Passed" />
+    <testcase name="NF010: Maximum length identifier PLC tag table" classname="PLC_1/Default tag table" status="Passed" />
+    <testcase name="SE003/DA003: Automatic ENO for Code block" classname="PLC_1/Main" status="Failure">
+      <failure type="Failure" message="Set ENO automatically is not set" />
+    </testcase>
+    <testcase name="SE003/DA003: Automatic ENO for Code block" classname="PLC_1/Pythagoras" status="Failure">
+      <failure type="Failure" message="Set ENO automatically is not set" />
+    </testcase>
+    <testcase name="SE003/DA003: Automatic ENO for Code block" classname="PLC_1/Test" status="Failure">
+      <failure type="Failure" message="Set ENO automatically is not set" />
+    </testcase>
+    <testcase name="SE004: HMI/ OPC UA/ Web API accessability is set selectively for In, Out, InOut" classname="PLC_1/Pythagoras/a" status="Passed" />
+    <testcase name="SE004: HMI/ OPC UA/ Web API accessability is set selectively for In, Out, InOut" classname="PLC_1/Pythagoras/b" status="Passed" />
+    <testcase name="SE004: HMI/ OPC UA/ Web API accessability is set selectively for In, Out, InOut" classname="PLC_1/Pythagoras/valid" status="Passed" />
+    <testcase name="SE004: HMI/ OPC UA/ Web API accessability is set selectively for In, Out, InOut" classname="PLC_1/Pythagoras/c" status="Passed" />
+    <testcase name="SE004: OPC UA accessability is set selectively for Instance DB" classname="PLC_1/Pythagoras_DB" status="Failure">
+      <failure type="Failure" message="DB accessible from OPC UA is set" />
+    </testcase>
+    <testcase name="SE004: OPC UA accessability is set selectively for Instance DB" classname="PLC_1/InstPythagoras" status="Failure">
+      <failure type="Failure" message="DB accessible from OPC UA is set" />
+    </testcase>
+    <testcase name="DA003: Auto numbering Code block" classname="PLC_1/Main" status="Passed" />
+    <testcase name="DA003: Auto numbering Code block" classname="PLC_1/Pythagoras" status="Passed" />
+    <testcase name="DA003: Auto numbering Code block" classname="PLC_1/Test" status="Passed" />
+    <testcase name="DA003: Auto numbering Instance DB" classname="PLC_1/Pythagoras_DB" status="Passed" />
+    <testcase name="DA003: Auto numbering Instance DB" classname="PLC_1/InstPythagoras" status="Passed" />
+    <testcase name="DA003: IEC check Code block" classname="PLC_1/Main" status="Failure">
+      <failure type="Failure" message="IEC check is not set" />
+    </testcase>
+    <testcase name="DA003: IEC check Code block" classname="PLC_1/Pythagoras" status="Failure">
+      <failure type="Failure" message="IEC check is not set" />
+    </testcase>
+    <testcase name="DA003: IEC check Code block" classname="PLC_1/Test" status="Failure">
+      <failure type="Failure" message="IEC check is not set" />
+    </testcase>
+    <testcase name="DA003: Optimized access Code block" classname="PLC_1/Main" status="Passed" />
+    <testcase name="DA003: Optimized access Code block" classname="PLC_1/Pythagoras" status="Passed" />
+    <testcase name="DA003: Optimized access Code block" classname="PLC_1/Test" status="Passed" />
+    <testcase name="PE005: Avoid formal parameter &quot;mode&quot;" classname="PLC_1/Pythagoras/a" status="Passed" />
+    <testcase name="PE005: Avoid formal parameter &quot;mode&quot;" classname="PLC_1/Pythagoras/b" status="Passed" />
+    <testcase name="PE005: Avoid formal parameter &quot;mode&quot;" classname="PLC_1/Pythagoras/valid" status="Passed" />
+    <testcase name="PE005: Avoid formal parameter &quot;mode&quot;" classname="PLC_1/Pythagoras/c" status="Passed" />
+  </testsuite>
+  <testsuite name="testCasePythagoras" tests="4" disabled="0" errors="0" failures="1" hostname="PLC_1" id="2" package="ApplicationTest" skipped="0" time="30" timestamp="2022-11-14T23:43:08.6789761Z">
+    <testcase name="Test Step 001: Check_for_negative_a_and_b" classname="PLC_1/testCasePythagoras" status="Passed" />
+    <testcase name="Test Step 002: Check_for_a_and_b_equal_to_zero" classname="PLC_1/testCasePythagoras" status="Passed" />
+    <testcase name="Test Step 003: Check_a_equal_to_3_and_b_equal_to_4" classname="PLC_1/testCasePythagoras" status="Passed" />
+    <testcase name="Test Step 004: Check_a_equal_to_0_and_b_equal_to_1" classname="PLC_1/testCasePythagoras" status="Failure">
+      <failure type="Failure" message="At InstPythagoras.valid: Actual: True, Expected: True" />
+    </testcase>
+  </testsuite>
+</testsuites>

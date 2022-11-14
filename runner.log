@@ -1,0 +1,18 @@
+﻿[00:43:37 Information] ...application test testCasePythagoras executed and save results. 
+[00:43:06 Information] Executing testCasePythagoras application test... 
+[00:43:06 Information] Precondition for plc master secret (Protection of confidential plc configuration data) at plc scope 'PLC_1': Fulfilled 
+[00:43:06 Information] Precondition for safety at plc scope 'PLC_1': Fulfilled 
+[00:43:06 Debug] Siemens.Engineering.EngineeringNotSupportedException: 'Failsafe_FCapabilityActivated' is not supported by type 'Siemens.Engineering.HW.Features.SoftwareContainer'.
+   at Siemens.Engineering.Private.Session.Siemens.Engineering.Private.IObjectSession.GetAttribute[T,TC](LifetimeContractHandle`1 lifetimeContractHandle, String name, String fullName)
+   at Siemens.Engineering.Private.InternalObject_Access`2.GetAttribute[T](String name)
+   at Siemens.Engineering.HW.Features.HardwareFeature.GetAttribute(String name)
+   at Siemens.Applications.TiaPortal.StandardizationSuite.TestRunner.OpennessApi.V17.TiaPortalProjectAdapter.CheckAppTestPreconditionSafetyFulfilled(PlcSoftware software) 
+[00:43:06 Information] Precondition for simulation support at plc scope 'PLC_1': Fulfilled 
+[00:43:05 Information] Set Scope for Siemens.Engineering.SW.PlcSoftware to testCasePythagoras 
+[00:43:05 Information] Prepare application test execution of testCasePythagoras ... 
+[00:43:05 Information] ...style guide rule set SiemensProgrammingStyleGuideRules executed and save results. 
+[00:42:58 Information] Executing SiemensProgrammingStyleGuideRules style guide rule set... 
+[00:42:58 Information] Parameter scope is null or empty. Use preset scope SiemensProgrammingStyleGuideRules from style guide rule set. 
+[00:42:58 Information] Prepare style guide rule set execution of SiemensProgrammingStyleGuideRules ... 
+[00:42:56 Information] ...project opened. 
+[00:42:03 Information] TIA Portal version 17.0.0.0 can be used with TIA Portal Openness V17. 

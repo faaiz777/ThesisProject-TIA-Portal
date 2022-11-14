@@ -1,0 +1,6 @@
+Siemens.TestRunnerConsole.exe --
+project="C:\Users\User\Desktop\Thesis\Project\DemoProject_V17\DemoProject_V17.ap17"^
+--logfile="C:\Users\User\Desktop\Thesis\Project\DemoProject_V17\runner.log"^
+--report="C:\Users\User\Desktop\Thesis\Project\DemoProject_V17\report.xml"^
+--test-application=all^
+--test-style=all
