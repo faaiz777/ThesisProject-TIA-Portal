@@ -1,11 +1,17 @@
 :: TIA Portal Test Runner Console
 :: Execute test cases and style guide checks with TIA Portal TestSuite
 
+cd C:\jenkins
+git clone https://github.com/faaiz777/ThesisProject-TIA-Portal.git
+
+cd C:\jenkins\ThesisProject-TIA-Portal
+
+
 @echo off
-set TESTRUNNER_FOLDER="C:\Users\User\Desktop\Thesis\Project\DemoProject_V17\TestRunner"
-set TIAP_PROJ="C:\Users\User\Desktop\Thesis\Project\DemoProject_V17\DemoProject_V17.ap17"
-set REPORT_FILE_PATH="C:\Users\User\Desktop\Thesis\Project\DemoProject_V17\Report.xml"
-set LOGGING_FILE_PATH="C:\Users\User\Desktop\Thesis\Project\DemoProject_V17\runner.log"
+set TESTRUNNER_FOLDER="C:\jenkins\ThesisProject-TIA-Portal\TestRunner"
+set TIAP_PROJ="C:\jenkins\ThesisProject-TIA-Portal\DemoProject_V17.ap17"
+set REPORT_FILE_PATH="C:\jenkins\ThesisProject-TIA-Portal\Report.xml"
+set LOGGING_FILE_PATH="C:\jenkins\ThesisProject-TIA-Portal\runner.log"
 
 :: change to the Test Runner Console executable folder
 pushd %TESTRUNNER_FOLDER%
