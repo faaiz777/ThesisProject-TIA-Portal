@@ -1,22 +1,13 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
 <!--exported by  'TIA Portal Test Suite Advanced' Version  17.00.00.00     © 2004-2016  Siemens AG  - all rights reserved-->
 <RuleSets Version='17.00.00.00'>
-  <RuleSet Name='SiemensProgrammingStyleGuide'>
+  <RuleSet Name='SiemensProgrammingStyleGuideRules'>
     <Property>
       <PropertyAttribute Name='Author' Value='SiemensAG' />
       <PropertyAttribute Name='Version' Value='2.0' />
       <PropertyAttribute Name='Comment' Value='The basis for this rule set is the P"rogramming style guide for SIMATIC S7-1200/ S7-1500" (https://support.industry.siemens.com/cs/ww/de/view/81318674)' />
     </Property>
     <Rules>
-      <Rule Name='NF002: Comment for Code block' Type='MetaDataRule' Enabled='True'>
-        <RuleAttribute Name='ObjectSelector' Value='CodeBlock_FB_FC_OB' />
-        <RuleAttribute Name='Target' Value='TargetProperty' />
-        <RuleAttribute Name='Category' Value='Error' />
-        <RuleAttribute Name='Comment' Value='Comment and property fields shall be used and filled with meaningful comments and information. Please refer to the programming style guide: https://support.industry.siemens.com/cs/ww/en/view/81318674' />
-        <RuleAttribute Name='Property' Value='Comment' />
-        <RuleAttribute Name='ViolationCondition' Value='NotExist' />
-        <RuleAttribute Name='Value' Value='' />
-      </Rule>
       <Rule Name='NF002: Comment for PLC data type' Type='MetaDataRule' Enabled='True'>
         <RuleAttribute Name='ObjectSelector' Value='PLCDataType' />
         <RuleAttribute Name='Target' Value='TargetProperty' />
@@ -35,24 +26,6 @@
         <RuleAttribute Name='ViolationCondition' Value='NotExist' />
         <RuleAttribute Name='Value' Value='' />
       </Rule>
-      <Rule Name='NF002: Comment for Instance DB' Type='MetaDataRule' Enabled='True'>
-        <RuleAttribute Name='ObjectSelector' Value='InstanceDataBlock' />
-        <RuleAttribute Name='Target' Value='TargetProperty' />
-        <RuleAttribute Name='Category' Value='Error' />
-        <RuleAttribute Name='Comment' Value='Comment and property fields shall be used and filled with meaningful comments and information. Please refer to the programming style guide: https://support.industry.siemens.com/cs/ww/en/view/81318674' />
-        <RuleAttribute Name='Property' Value='Comment' />
-        <RuleAttribute Name='ViolationCondition' Value='NotExist' />
-        <RuleAttribute Name='Value' Value='' />
-      </Rule>
-      <Rule Name='NF002: Title for Code block' Type='MetaDataRule' Enabled='True'>
-        <RuleAttribute Name='ObjectSelector' Value='CodeBlock_FB_FC_OB' />
-        <RuleAttribute Name='Target' Value='TargetProperty' />
-        <RuleAttribute Name='Category' Value='Error' />
-        <RuleAttribute Name='Comment' Value='Comment and property fields shall be used and filled with meaningful comments and information. Please refer to the programming style guide: https://support.industry.siemens.com/cs/ww/en/view/81318674' />
-        <RuleAttribute Name='Property' Value='Title' />
-        <RuleAttribute Name='ViolationCondition' Value='NotExist' />
-        <RuleAttribute Name='Value' Value='' />
-      </Rule>
       <Rule Name='NF002: Title for PLC data type' Type='MetaDataRule' Enabled='True'>
         <RuleAttribute Name='ObjectSelector' Value='PLCDataType' />
         <RuleAttribute Name='Target' Value='TargetProperty' />
@@ -68,24 +41,6 @@
         <RuleAttribute Name='Category' Value='Error' />
         <RuleAttribute Name='Comment' Value='Comment and property fields shall be used and filled with meaningful comments and information. Please refer to the programming style guide: https://support.industry.siemens.com/cs/ww/en/view/81318674' />
         <RuleAttribute Name='Property' Value='Title' />
-        <RuleAttribute Name='ViolationCondition' Value='NotExist' />
-        <RuleAttribute Name='Value' Value='' />
-      </Rule>
-      <Rule Name='NF002: Title for Instance DB' Type='MetaDataRule' Enabled='True'>
-        <RuleAttribute Name='ObjectSelector' Value='InstanceDataBlock' />
-        <RuleAttribute Name='Target' Value='TargetProperty' />
-        <RuleAttribute Name='Category' Value='Error' />
-        <RuleAttribute Name='Comment' Value='Comment and property fields shall be used and filled with meaningful comments and information. Please refer to the programming style guide: https://support.industry.siemens.com/cs/ww/en/view/81318674' />
-        <RuleAttribute Name='Property' Value='Title' />
-        <RuleAttribute Name='ViolationCondition' Value='NotExist' />
-        <RuleAttribute Name='Value' Value='' />
-      </Rule>
-      <Rule Name='NF002: Author for Code block' Type='MetaDataRule' Enabled='True'>
-        <RuleAttribute Name='ObjectSelector' Value='CodeBlock_FB_FC_OB' />
-        <RuleAttribute Name='Target' Value='TargetProperty' />
-        <RuleAttribute Name='Category' Value='Error' />
-        <RuleAttribute Name='Comment' Value='Comment and property fields shall be used and filled with meaningful comments and information. Please refer to the programming style guide: https://support.industry.siemens.com/cs/ww/en/view/81318674' />
-        <RuleAttribute Name='Property' Value='Author' />
         <RuleAttribute Name='ViolationCondition' Value='NotExist' />
         <RuleAttribute Name='Value' Value='' />
       </Rule>
@@ -116,14 +71,6 @@
         <RuleAttribute Name='ViolationCondition' Value='IsNotEqual' />
         <RuleAttribute Name='Value' Value='L&lt;Name&gt;_' />
       </Rule>
-      <Rule Name='NF005: PascalCasing for Instance DB' Type='CasingRule' Enabled='True'>
-        <RuleAttribute Name='ObjectSelector' Value='InstanceDataBlock' />
-        <RuleAttribute Name='Target' Value='TargetName' />
-        <RuleAttribute Name='Category' Value='Error' />
-        <RuleAttribute Name='Comment' Value='Identifiers for Instance DBs are written using PascalCasing (e.g. InstConveyorFeed).' />
-        <RuleAttribute Name='Casing' Value='PascalCasing' />
-        <RuleAttribute Name='ViolationCondition' Value='IsNotSet' />
-      </Rule>
       <Rule Name='NF005: PascalCasing for Code block' Type='CasingRule' Enabled='True'>
         <RuleAttribute Name='ObjectSelector' Value='CodeBlock_FB_FC_OB' />
         <RuleAttribute Name='Target' Value='TargetName' />
@@ -137,14 +84,6 @@
         <RuleAttribute Name='Target' Value='TargetName' />
         <RuleAttribute Name='Category' Value='Error' />
         <RuleAttribute Name='Comment' Value='Identifiers for Global DBs are written using PascalCasing (e.g. MachineParameter).' />
-        <RuleAttribute Name='Casing' Value='PascalCasing' />
-        <RuleAttribute Name='ViolationCondition' Value='IsNotSet' />
-      </Rule>
-      <Rule Name='NF005: PascalCasing for PLC tag table' Type='CasingRule' Enabled='True'>
-        <RuleAttribute Name='ObjectSelector' Value='PLCTagTable' />
-        <RuleAttribute Name='Target' Value='TargetName' />
-        <RuleAttribute Name='Category' Value='Error' />
-        <RuleAttribute Name='Comment' Value='Identifiers for PLC tag tables are written using PascalCasing (e.g. ConveyorProcess).  ' />
         <RuleAttribute Name='Casing' Value='PascalCasing' />
         <RuleAttribute Name='ViolationCondition' Value='IsNotSet' />
       </Rule>
@@ -185,14 +124,6 @@
         <RuleAttribute Name='Target' Value='TargetName' />
         <RuleAttribute Name='Category' Value='Error' />
         <RuleAttribute Name='Comment' Value='Identifiers for variables are written using camelCasing.' />
-        <RuleAttribute Name='Casing' Value='CamelCasing' />
-        <RuleAttribute Name='ViolationCondition' Value='IsNotSet' />
-      </Rule>
-      <Rule Name='NF006: camelCasing for PLC tag' Type='CasingRule' Enabled='True'>
-        <RuleAttribute Name='ObjectSelector' Value='PLCTagTable_Tags' />
-        <RuleAttribute Name='Target' Value='TargetName' />
-        <RuleAttribute Name='Category' Value='Error' />
-        <RuleAttribute Name='Comment' Value='Identifiers for PLC tags are written using camelCasing.' />
         <RuleAttribute Name='Casing' Value='CamelCasing' />
         <RuleAttribute Name='ViolationCondition' Value='IsNotSet' />
       </Rule>
@@ -284,15 +215,6 @@
         <RuleAttribute Name='Context' Value='StartsWith' />
         <RuleAttribute Name='ViolationCondition' Value='IsNotEqual' />
         <RuleAttribute Name='Value' Value='type' />
-      </Rule>
-      <Rule Name='NF007: Prefix for Instance DB' Type='PrefixSuffixRule' Enabled='True'>
-        <RuleAttribute Name='ObjectSelector' Value='InstanceDataBlock' />
-        <RuleAttribute Name='Target' Value='TargetName' />
-        <RuleAttribute Name='Category' Value='Error' />
-        <RuleAttribute Name='Comment' Value='Single instances DBs get the prefix “Inst” (e.g. InstConveyorFeed). With the prefixes in place it can be easier recognized, whether an (invalid) access to instance data has been made.' />
-        <RuleAttribute Name='Context' Value='StartsWith' />
-        <RuleAttribute Name='ViolationCondition' Value='IsNotEqual' />
-        <RuleAttribute Name='Value' Value='Inst' />
       </Rule>
       <Rule Name='NF007: Prefix for Static' Type='PrefixSuffixRule' Enabled='True'>
         <RuleAttribute Name='ObjectSelector' Value='CodeBlock_Interface_Static' />
@@ -432,15 +354,6 @@
         <RuleAttribute Name='ViolationCondition' Value='GreaterThan' />
         <RuleAttribute Name='Value' Value='24' />
       </Rule>
-      <Rule Name='SE003/DA003: Automatic ENO for Code block' Type='MetaDataRule' Enabled='True'>
-        <RuleAttribute Name='ObjectSelector' Value='CodeBlock_FB_FC_OB' />
-        <RuleAttribute Name='Target' Value='TargetProperty' />
-        <RuleAttribute Name='Category' Value='Error' />
-        <RuleAttribute Name='Comment' Value='The use of the EN/ ENO mechanism avoids unexpected program interruptions. The block status is passed on in the format of a Boolean variable. ' />
-        <RuleAttribute Name='Property' Value='SetENOAutomatically' />
-        <RuleAttribute Name='ViolationCondition' Value='IsNotSet' />
-        <RuleAttribute Name='Value' Value='' />
-      </Rule>
       <Rule Name='SE004: HMI/ OPC UA/ Web API accessability is set for PLC data type' Type='MetaDataRule' Enabled='True'>
         <RuleAttribute Name='ObjectSelector' Value='PLCDataType_Member' />
         <RuleAttribute Name='Target' Value='TargetProperty' />
@@ -558,15 +471,6 @@
         <RuleAttribute Name='ViolationCondition' Value='IsSet' />
         <RuleAttribute Name='Value' Value='' />
       </Rule>
-      <Rule Name='SE004: OPC UA accessability is set selectively for Instance DB' Type='MetaDataRule' Enabled='True'>
-        <RuleAttribute Name='ObjectSelector' Value='InstanceDataBlock' />
-        <RuleAttribute Name='Target' Value='TargetProperty' />
-        <RuleAttribute Name='Category' Value='Error' />
-        <RuleAttribute Name='Comment' Value='Per default the access to a data block via OPC UA shall be disabled. Enable it selectively.' />
-        <RuleAttribute Name='Property' Value='DBAccessibleFromOPCUA' />
-        <RuleAttribute Name='ViolationCondition' Value='IsSet' />
-        <RuleAttribute Name='Value' Value='' />
-      </Rule>
       <Rule Name='DA003: Auto numbering Code block' Type='MetaDataRule' Enabled='True'>
         <RuleAttribute Name='ObjectSelector' Value='CodeBlock_FB_FC_OB' />
         <RuleAttribute Name='Target' Value='TargetProperty' />
@@ -591,15 +495,6 @@
         <RuleAttribute Name='Category' Value='Error' />
         <RuleAttribute Name='Comment' Value='Blocks (OB, FC, FB, DB, TO) shall only be delivered with auto numbering turned on. Be aware that the execution of an Organization blocks depends on its number/ priority.' />
         <RuleAttribute Name='Property' Value='AutomaticNumbering' />
-        <RuleAttribute Name='ViolationCondition' Value='IsNotSet' />
-        <RuleAttribute Name='Value' Value='' />
-      </Rule>
-      <Rule Name='DA003: IEC check Code block' Type='MetaDataRule' Enabled='True'>
-        <RuleAttribute Name='ObjectSelector' Value='CodeBlock_FB_FC_OB' />
-        <RuleAttribute Name='Target' Value='TargetProperty' />
-        <RuleAttribute Name='Category' Value='Error' />
-        <RuleAttribute Name='Comment' Value='To ensure the IEC conformant programming, the IEC check must be turned on. Only this way a type conformant and type safe programming can be ensured.' />
-        <RuleAttribute Name='Property' Value='IECCheck' />
         <RuleAttribute Name='ViolationCondition' Value='IsNotSet' />
         <RuleAttribute Name='Value' Value='' />
       </Rule>
