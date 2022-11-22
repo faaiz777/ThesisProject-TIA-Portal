@@ -1,8 +1,9 @@
+###IMPORTANT###
+The pipeline must be named "test"
+
 ###Build-Steps -1 Execute Windows batch command ###
 
-git clone https://github.com/faaiz777/ThesisProject-TIA-Portal.git
 C:\jenkins\workspace\test\TestRunner\Batch-File-Examples\RunTestRunner.bat
-
 
 ###Post-Build-1 Publish JUnit test result report ###
 
