@@ -21,6 +21,6 @@ Siemens.TestRunner.Console.exe ^
  --report %REPORT_FILE_PATH% ^
  --format=JUNIT_HUDSON ^
  --project=%TIAP_PROJ% ^
- --test-style StyleguideRulesets.xml ^
+ --test-style ProgrammingStyleRules ^
  --test-application all ^
  --test-application-plc-scope PLC_1
