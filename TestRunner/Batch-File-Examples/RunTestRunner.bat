@@ -2,10 +2,10 @@
 :: Execute test cases and style guide checks with TIA Portal TestSuite
 
 @echo off
-set TESTRUNNER_FOLDER="C:\jenkins\workspace\test\TestRunner"
+set TESTRUNNER_FOLDER="c:\jenkins\workspace\test\TestRunner"
 C:\jenkins\workspace\test
 set TIAP_PROJ="C:\jenkins\workspace\test\DemoProject_V17.ap17"
-set REPORT_FILE_PATH="C:\jenkins\workspace\Report.xml"
+set REPORT_FILE_PATH="C:\jenkins\workspace\test\Report.xml"
 :: set REPORT_FILE_PATH="C:\jenkins\ThesisProject-TIA-Portal\Report.xml"
 set LOGGING_FILE_PATH="C:\jenkins\workspace\test\runner.log"
 
